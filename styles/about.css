@@ -146,3 +146,39 @@
   .nav-container input[type="checkbox"]:checked ~ .logo{
     display: none;
   }
+
+  .fridge_section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    
+  }
+  .fridge_txt_div {
+    padding: 40px;
+  }
+  .fridge_txt_div p {
+    font-size: 30px;
+  }
+  .fridge_txt_div h1 {
+    font-size: 80px;
+  }
+  .fridge_img_div img {
+        height: 250px;
+        width: 250px;
+  }
+  .reedbt {
+    padding: 10px;
+    border-radius: 15px;
+    background-color:   black;
+    text-decoration: none;
+    box-shadow: none;
+  }
+  .reedbt p {
+    color: white;
+  }
+  .line52 {
+    margin-top: 200px;
+    background-color: black;
+    height: 1px;
+    max-width: 1980px;
+  }
