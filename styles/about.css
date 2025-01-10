@@ -146,11 +146,15 @@
   .nav-container input[type="checkbox"]:checked ~ .logo{
     display: none;
   }
-
+  .refridge_section {
+    margin: 0;
+    padding-top: 150px;
+    padding-bottom: 400px;
+  }
   .fridge_section {
     display: flex;
     justify-content: space-between;
-    margin-top: 150px;
+    
     
   }
   .fridge_txt_div {
@@ -177,8 +181,47 @@
     color: white;
   }
   .line52 {
-    margin-top: 200px;
     background-color: black;
     height: 1px;
     max-width: 1980px;
+  }
+  .h2_in_about {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 50px;
+  }
+  .about_app_div {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .card{ 
+    background-color: white;
+    min-height: 300px;
+    min-width: 250px;
+    display: flex;
+    border-radius: 15px;
+    flex-direction: column;
+    
+  }
+  .card img {
+    height: 150px;
+    width: 120px;
+    margin-left: 70px;
+    margin-right: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .card h2 {
+    
+  }
+  .card_section {
+    padding-top: 30px;
+    background-color: black;
+    min-height: 300px;
+  }
+  footer {
+    height: 1000px;
   }
