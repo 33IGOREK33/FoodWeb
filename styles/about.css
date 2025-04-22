@@ -245,9 +245,12 @@
     display: flex;
     justify-content: center;
   }
-  .img-screan {
-    height: 700px;
-    width: 500px;
+  .img-screan img {
+    max-height: 700px;
+    max-width: 500px;
   
     
+  }
+  .block p {
+    max-width: 300px;
   }
